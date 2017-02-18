@@ -1,3 +1,8 @@
+[![NPM version](https://img.shields.io/npm/v/@slicky/reflection.svg?style=flat-square)](https://www.npmjs.com/package/@slicky/reflection)
+[![Build Status](https://img.shields.io/travis/SlickyJS/Reflection.svg?style=flat-square)](https://travis-ci.org/SlickyJS/Reflection)
+
+[![Donate](https://img.shields.io/badge/donate-PayPal-brightgreen.svg?style=flat-square)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CXNA2P52EBYKE)
+
 # Slicky/Reflection
 
 Helpers for working with typescript's reflection.
