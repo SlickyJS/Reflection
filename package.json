@@ -1,0 +1,29 @@
+{
+	"name": "@slicky/reflection",
+	"description": "Helpers for working with typescript's reflection",
+	"version": "1.0.0",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:SlickyJS/Reflection.git"
+	},
+	"author": {
+		"name": "David Kudera",
+		"email": "kudera.d@gmail.com"
+	},
+	"devDependencies": {
+		"typescript": "^2.1.0",
+		"ts-node": "^2.1.0",
+		"reflect-metadata": "^0.1.0",
+
+		"mocha": "^3.2.0",
+		"chai": "^3.5.0",
+
+		"@types/node": "^7.0.0",
+		"@types/mocha": "^2.2.0",
+		"@types/chai": "^3.4.0"
+	},
+	"scripts": {
+		"test": "cd tests && mocha -r ts-node/register index.ts"
+	}
+}
