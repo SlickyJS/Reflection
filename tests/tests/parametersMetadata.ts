@@ -56,6 +56,17 @@ describe('#parametersMetadata', () => {
 			expect(metadata).to.be.an.instanceOf(ParameterMetadata);
 		});
 
+		it('should try to find parameter metadata on parameter without metadata', () => {
+			class TestClass {}
+			class ParameterMetadata {}
+
+			Reflect.defineMetadata(PARAMETERS_KEY, {method: [null]}, TestClass);
+
+			let metadata = findParameterMetadata(TestClass, ParameterMetadata, 0, 'method');
+
+			expect(metadata).to.be.equal(null);
+		});
+
 	});
 
 	describe('makeParameterDecorator', () => {

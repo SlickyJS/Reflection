@@ -34,7 +34,7 @@ export function findParameterMetadata(target: any, annotationType: Function, ind
 {
 	let metadata = getParametersMetadata(target, methodName);
 
-	if (typeof metadata[index] === 'undefined') {
+	if (metadata[index] == null) {
 		return null;
 	}
 
