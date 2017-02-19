@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"removeComments": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"declaration": true,
+		"outDir": "./lib",
+		"declarationDir": "./lib"
+	},
+	"include": [
+		"./src/**/*.ts"
+	]
+}
