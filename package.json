@@ -1,7 +1,7 @@
 {
 	"name": "@slicky/reflection",
 	"description": "Helpers for working with typescript's reflection",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
@@ -14,16 +14,14 @@
 	"main": "./lib/index.js",
 	"types": "./lib/index.d.ts",
 	"devDependencies": {
-		"typescript": "^2.1.0",
-		"ts-node": "^2.1.0",
-		"reflect-metadata": "^0.1.0",
-
-		"mocha": "^3.2.0",
-		"chai": "^3.5.0",
-
-		"@types/node": "^7.0.0",
-		"@types/mocha": "^2.2.0",
-		"@types/chai": "^3.4.0"
+		"@types/chai": "^4.0.3",
+		"@types/mocha": "^2.2.41",
+		"@types/node": "^8.0.22",
+		"chai": "^4.1.1",
+		"mocha": "^3.5.0",
+		"ts-node": "^3.3.0",
+		"typescript": "^2.5.2",
+		"reflect-metadata": "^0.1.10"
 	},
 	"scripts": {
 		"build": "tsc",
