@@ -25,7 +25,10 @@
 	},
 	"scripts": {
 		"build": "tsc",
-		"pretest": "yarn run build",
-		"test": "cd tests && mocha -r ts-node/register index.ts"
+		"watch": "tsc --watch",
+		"test": "mocha -r ts-node/register tests/tests/**/*.ts",
+
+		"prepublish": "yarn run build",
+		"pretest": "yarn run build"
 	}
 }

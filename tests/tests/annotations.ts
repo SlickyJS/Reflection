@@ -1,3 +1,5 @@
+import '../bootstrap';
+
 import {getAnnotations, findAnnotation, makeClassDecorator, ANNOTATIONS_KEY} from '../../';
 import {expect} from 'chai';
 

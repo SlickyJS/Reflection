@@ -1,3 +1,5 @@
+import '../bootstrap';
+
 import {getParametersMetadata, findParameterMetadata, makeParameterDecorator, PARAMETERS_KEY} from '../../';
 import {expect} from 'chai';
 

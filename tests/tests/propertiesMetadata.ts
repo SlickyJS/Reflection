@@ -1,3 +1,5 @@
+import '../bootstrap';
+
 import {getPropertiesMetadata, getPropertyMetadata, findPropertyMetadata, makePropertyDecorator, PROPERTIES_KEY} from '../../';
 import {expect} from 'chai';
 
