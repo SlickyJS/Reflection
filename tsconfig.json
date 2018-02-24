@@ -5,10 +5,15 @@
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
 		"declaration": true,
+		"sourceMap": true,
 		"outDir": "./lib",
 		"declarationDir": "./lib"
 	},
 	"include": [
-		"./src/**/*.ts"
+		"./src"
+	],
+	"exclude": [
+		"./node_modules",
+		"./tests"
 	]
 }
